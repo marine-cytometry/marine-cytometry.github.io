@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://marine-cytometry.github.io/"
+base_url = "https://marinecytometry.org/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -19,7 +19,7 @@ highlight_code = true
 
 [extra.papermod]
 title = "Marine Cytometry"
-#icon = "alchitry.svg"
+icon = "marcy_header.svg"
 default_theme = "auto"
 theme = "light"
 language_direction = "auto"
@@ -27,15 +27,15 @@ keywords = ["keyword1", "keyword2", "keyword3"]
 show_theme_toggle = false
 show_scroll_to_top = true
 show_code_copy_buttons = true
-show_reading_time = true
+show_reading_time = false
 show_word_count = false
 show_post_nav_links = true
 show_post_meta = true
 default_toc_open = false
-edit_post_url = "https://github.com/alchitry/alchitry.github.io/tree/master"
 copyright = "Marine Cytometry"
 date_format = "%Y-%m-%d"
 navigation = [
+    { url = "$BASE_URL/news", title = "News" }
 ]
 
 home_title = "Marine Cytometry"
