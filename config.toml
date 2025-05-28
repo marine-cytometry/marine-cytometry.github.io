@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://marinecytometry.org/"
+base_url = "https://marinecytometry.org"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -35,7 +35,9 @@ default_toc_open = false
 copyright = "Marine Cytometry"
 date_format = "%Y-%m-%d"
 navigation = [
-    { url = "$BASE_URL/news", title = "News" }
+    { url = "$BASE_URL/news", title = "News" },
+    { url = "$BASE_URL", title = "About" },
+    { url = "$BASE_URL", title = "Contact" }
 ]
 
 home_title = "Marine Cytometry"
