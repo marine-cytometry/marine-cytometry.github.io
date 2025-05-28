@@ -40,6 +40,15 @@
   :root {
     --header-height: 150px;
     --wave-height: 20px;
+    --footer-height: 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  :root {
+    --header-height: 100px;
+    --wave-height: 15px;
+    --footer-height: 60px;
   }
 }
 
