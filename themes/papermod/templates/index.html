@@ -10,12 +10,14 @@
     {% block header %}
     {% include "partials/header.html" %}
     {% endblock %}
-    <main class="main">
-        {% block main %}
-        {% include "partials/home_info.html" %}
-        {% include "partials/home_posts.html" %}
-        {% endblock %}
-    </main>
+    <div class="main-container">
+        <main class="main">
+            {% block main %}
+            {% include "partials/home_info.html" %}
+            {% include "partials/home_posts.html" %}
+            {% endblock %}
+        </main>
+    </div>
     {% block footer %}
     {% include "partials/footer.html" %}
     {% endblock %}

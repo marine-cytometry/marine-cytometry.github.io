@@ -36,8 +36,8 @@ copyright = "Marine Cytometry"
 date_format = "%Y-%m-%d"
 navigation = [
     { url = "$BASE_URL/news", title = "News" },
-    { url = "$BASE_URL", title = "About" },
-    { url = "$BASE_URL", title = "Contact" }
+    { url = "$BASE_URL/about", title = "About" },
+    { url = "$BASE_URL/contact", title = "Contact" }
 ]
 
 home_title = "Marine Cytometry"
