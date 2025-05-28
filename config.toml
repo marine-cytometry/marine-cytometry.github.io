@@ -19,8 +19,8 @@ highlight_code = true
 
 [extra.papermod]
 title = "Marine Cytometry"
-icon = "marcy_header.svg"
-default_theme = "auto"
+icon = "marcy_logo.svg"
+default_theme = "light"
 theme = "light"
 language_direction = "auto"
 keywords = ["keyword1", "keyword2", "keyword3"]
