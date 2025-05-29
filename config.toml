@@ -31,6 +31,7 @@ show_reading_time = false
 show_word_count = false
 show_post_nav_links = false
 show_post_meta = true
+show_toc = false
 default_toc_open = false
 copyright = "Marine Cytometry Inc."
 date_format = "%Y-%m-%d"
