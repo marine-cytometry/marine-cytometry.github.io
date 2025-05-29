@@ -75,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary);
+  color: var(--accent);
 }
 a {
   color: var(--accent);
@@ -774,10 +774,17 @@ pre:hover .copy-code {
   border-inline-start: 3px solid var(--primary);
 }
 .post-content hr {
-  margin: 30px 0;
-  height: 2px;
-  background: var(--tertiary);
-  border: 0;
+  border: none;
+  height: 20px;
+  width: 25%;
+  margin: 1rem auto;
+  background: var(--accent);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 20' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,10 Q12.5,0 25,10 T50,10 Q62.5,0 75,10 T100,10' style='fill:none; stroke:white; stroke-width:2'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 20' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,10 Q12.5,0 25,10 T50,10 Q62.5,0 75,10 T100,10' style='fill:none; stroke:white; stroke-width:2'/%3E%3C/svg%3E");
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
 }
 .post-content iframe {
   max-width: 100%;
