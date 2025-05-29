@@ -33,7 +33,7 @@
         {% endif %}
     </header>
 
-    {% if config.extra.papermod.show_toc | default(value=true) %}
+    {% if page.extra.papermod.show_toc | default(value=true) %}
     {% include "partials/toc.html" %}
     {% endif %}
 
