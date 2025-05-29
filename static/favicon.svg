@@ -3,7 +3,7 @@
    id="Layer_1"
    version="1.1"
    viewBox="0 0 160 160"
-   sodipodi:docname="Logo_Filled.svg"
+   sodipodi:docname="favicon.svg"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -18,15 +18,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="9.1395279"
-     inkscape:cx="78.723979"
-     inkscape:cy="98.473358"
+     inkscape:zoom="7.7838558"
+     inkscape:cx="60.702563"
+     inkscape:cy="88.901955"
      inkscape:window-width="3840"
      inkscape:window-height="2121"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4" />
+     inkscape:current-layer="g4"
+     inkscape:export-bgcolor="#00000000" />
   <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
   <defs
      id="defs1">
@@ -61,5 +62,11 @@
        class="st0"
        d="m 80,76.01 c -1.59,0 -2.88,1.29 -2.88,2.88 0,1.59 1.29,2.88 2.88,2.88 1.59,0 2.88,-1.29 2.88,-2.88 0,-1.59 -1.29,-2.88 -2.88,-2.88 z"
        id="path3" />
+    <circle
+       style="color:#000000;overflow:visible;fill:none;stroke:#ffffff;stroke-width:6"
+       id="path5"
+       cx="80"
+       cy="78.900803"
+       r="70.439583" />
   </g>
 </svg>
