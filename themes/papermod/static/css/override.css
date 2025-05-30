@@ -207,12 +207,6 @@
     content: ":";
 }
 
-.post-content strong {
-    font-style: normal;
-    font-weight: bold;
-    color: var(--accent);
-}
-
 .about-us-page {
     display: flex;
     flex-direction: column;
@@ -244,4 +238,8 @@
     .about-us-text {
         font-size: 1rem;
     }
+}
+
+.gallery img {
+    display: inline;
 }

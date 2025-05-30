@@ -1,8 +1,21 @@
 +++
-title = "Meet The Team"
+title = "About Us"
 [extra.papermod]
 show_toc = false
 +++
+
+MarCy R&D is located in the Skagit Valley, WA
+in the Elysium wild life corridor.
+
+![MarCy R&D](/images/lambda_dependant_reflection.jpg)
+
+The technical R&D and electronics lab are in Littleton, CO.
+
+The manufacturing and mechanical design group is in Bonney Lake, WA.
+
+We respect our environment and aim to minimize our carbon footprint.
+
+# Meet the Team
 
 <div class="about-us-page">
 <div class="about-us-container">
