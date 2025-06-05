@@ -154,16 +154,12 @@ console.log("resize");
         const leftImages = body.querySelectorAll('.side-image.left-image');
         const rightImages = body.querySelectorAll('.side-image.right-image');
     
-        const entryRect = body.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const bodyTop = entryRect.top + scrollTop - 45;
-    
-        positionImages(leftImages, bodyTop);
-        positionImages(rightImages, bodyTop);
+        positionImages(leftImages);
+        positionImages(rightImages);
     });
 }
 
-function positionImages(images, parentTop) {
+function positionImages(images) {
     let maxBottom = 0;
 
     images.forEach(image => {
