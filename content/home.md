@@ -168,12 +168,9 @@ function positionImages(images) {
             return;
         }
         const entryRect = image.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        let currentTop = entryRect.top + scrollTop;
+        let currentTop = entryRect.top;
         let newTop = currentTop;
-        console.log("Max: ", maxBottom, " Current: ", newTop);
         if (currentTop < maxBottom) {
-            console.log("Pushing to bottom");
             newTop = maxBottom;
             image.style.marginTop = (newTop - currentTop) + 'px';
         }
