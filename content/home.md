@@ -156,7 +156,7 @@ console.log("resize");
     
         const entryRect = body.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const bodyTop = entryRect.top + scrollTop;
+        const bodyTop = entryRect.top + scrollTop - 45;
     
         positionImages(leftImages, bodyTop);
         positionImages(rightImages, bodyTop);
@@ -174,10 +174,12 @@ function positionImages(images, parentTop) {
         const entryRect = image.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         let newTop = entryRect.top + scrollTop;
+        console.log("Max: ", maxBottom, " Current: ", newTop);
         if (newTop < maxBottom) {
+            console.log("Pushing to bottom");
             newTop = maxBottom;
+            image.style.top = (newTop - parentTop) + 'px';
         }
-        image.style.top = (newTop - parentTop) + 'px';
 
         maxBottom = newTop + entryRect.height;
     });
