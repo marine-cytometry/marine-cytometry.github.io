@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title></title>
+
+
+<meta name="keywords" content="cytometry, flow cytometry, dark field flow">
+
+
+
+<meta name="description" content="">
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://marinecytometry.org/css/styles.css">
+<link rel="stylesheet" href="https://marinecytometry.org/css/override.css">
+
+<link rel="icon" href="https://marinecytometry.org/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="16x16" href="https://marinecytometry.org/favicon_16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://marinecytometry.org/favicon_32.png">
+<link rel="apple-touch-icon" href="https://marinecytometry.org/apple-touch-icon.png"><!-- 180×180 -->
+<meta name="theme-color" content="#3764af">
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQD5TH74D"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BHQD5TH74D');
+</script>
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+    </style>
+    
+</noscript>
+
+
+
+    
+</head>
+<body class="" id="top">
+    
+    
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+
+    <nav class="nav">
+        <div class="logo">
+            <a href="https:&#x2F;&#x2F;marinecytometry.org" accesskey="h" title="Marine Cytometry (Alt + H)"><img src="https://marinecytometry.org/marcy_logo.svg"
+                                                         alt="Marine Cytometry"
+                                                         aria-label="Marine Cytometry">
+            </a>
+        </div>
+        
+        <ul id="menu" class="desktop-nav">
+            
+            
+            
+            <li>
+                <a href="https:&#x2F;&#x2F;marinecytometry.org&#x2F;contact" title="Contact">
+                    <span>Contact</span>
+                    
+                </a>
+            </li>
+            
+        </ul>
+        <div id="overlayNavOpen">
+            <span onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></span>
+        </div>
+        
+    </nav>
+</header>
+<div class="wave-container"></div>
+
+
+<div id="overlayNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        
+        
+        
+        <a href="https:&#x2F;&#x2F;marinecytometry.org&#x2F;contact" title="Contact">
+            <span>Contact</span>
+            
+        </a>
+        
+    </div>
+</div>
+
+    
+    <div class="main-container">
+        <main class="main">
+            
+<div class="not-found">404</div>
+
+        </main>
+    </div>
+    
+    <div class="footer-wave-container"></div>
+<footer class="footer">
+    <div>
+        <div class="social-icons">
+    
+</div>
+
+        <span>&copy; 2025 <a href="https:&#x2F;&#x2F;marinecytometry.org">Marine Cytometry Inc.</a></span>
+    </div>
+</footer>
+
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+
+
+
+<script>
+    /* Open */
+    function openNav() {
+        document.getElementById("overlayNav").style.display = "block";
+    }
+
+    /* Close */
+    function closeNav() {
+        document.getElementById("overlayNav").style.display = "none";
+    }
+</script>
+
+
+
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) {
+            }
+            ;
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            // td containing LineNos
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            // table containing LineNos and code
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            // code blocks not having highlight as parent class
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+
+
+    
+</body>
+</html>
