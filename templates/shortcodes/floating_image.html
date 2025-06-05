@@ -1,0 +1,12 @@
+{% set size = scale | default(value=1.0) %}
+{% set width = 800 * size | int %}
+{% set image = resize_image(path=path, width=width, op="fit_width") %}
+<div class="side-image {{side}}-image {% if fullOnly %}full-only{% endif %}">
+    <div style="width:{{size*100}}%;margin:0 auto;">
+    <span class="image-title">{{title | safe}}</span>
+    <img src="{{image.url}}" alt="{{title | safe}}">
+    {% if caption %}
+    <div class="image-caption">{{caption | markdown | safe}}</div>
+    {% endif %}
+    </div>
+</div>

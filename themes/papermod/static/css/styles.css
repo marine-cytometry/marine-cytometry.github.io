@@ -7,8 +7,9 @@
 :root {
   --gap: 24px;
   --content-gap: 20px;
-  --nav-width: 1400px;
-  --main-width: 1400px;
+  --nav-width: 1800px;
+  --main-width: 1800px;
+  --triple-center-width: 650px;
   --header-height: 200px;
   --footer-height: 120px;
   --wave-height: 35px;

@@ -35,7 +35,6 @@ default_toc_open = false
 copyright = "Marine Cytometry Inc."
 date_format = "%Y-%m-%d"
 navigation = [
-    { url = "$BASE_URL/about", title = "About" },
     { url = "$BASE_URL/contact", title = "Contact" }
 ]
 
