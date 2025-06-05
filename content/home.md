@@ -168,17 +168,18 @@ function positionImages(images, parentTop) {
 
     images.forEach(image => {
         if (window.innerWidth < 1500) {
-            image.style.top = "";
+            image.style.marginTop = "";
             return;
         }
         const entryRect = image.getBoundingClientRect();
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        let newTop = entryRect.top + scrollTop;
+        let currentTop = entryRect.top + scrollTop;
+        let newTop = currentTop;
         console.log("Max: ", maxBottom, " Current: ", newTop);
-        if (newTop < maxBottom) {
+        if (currentTop < maxBottom) {
             console.log("Pushing to bottom");
             newTop = maxBottom;
-            image.style.top = (newTop - parentTop) + 'px';
+            image.style.marginTop = (newTop - currentTop) + 'px';
         }
 
         maxBottom = newTop + entryRect.height;
