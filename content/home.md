@@ -63,17 +63,17 @@ caption="The MarLux detect 0.2 &micro;m particles 2-3 decades above background."
 title="Side Scatter"
 ) }}
 
-{{ floating_image(
-path="images/pinhole_no_bar.png",
-side="right",
-caption="Raw images without scatter bar or chromatic filters at &lambda; = 450 nm.",
-title="Pinhole"
-) }}
-
 Dark Field illumination allows the detection of particles as small as 1/2 the illumination wavelength
 well above background noise.
 
 ## Full Spectrum Omni-Directional Flow Cytometry&trade;
+
+{{ floating_image(
+path="images/pseudo-spectrum.png",
+side="right",
+caption="Fluorescence spectrum of Pseudo-nitzschia multiseries.",
+title="Pseudo-nitzschia Multiseries"
+) }}
 
 Since the illumination and registration optics are not in the same plane, they can be oriented at any angle[^1].
 To detect color changes associated with energy transfer, the angular distribution of the polarization state
@@ -81,22 +81,15 @@ can be determined.
 The instrument can also be equipped for full spectral analysis.
 
 {{ floating_image(
-path="images/pseudo-spectrum.png",
+path="images/angular_experiments.png",
 side="left",
-caption="Fluorescence spectrum of Pseudo-nitzschia multiseries.",
-title="Pseudo-nitzschia Multiseries"
+title="Examples of Angular Experiments"
 ) }}
 
 The MarLux™ cell sorter incorporates Dark Field illumination in a circular layout.
 This geometry allows multiple excitation and emission channels (up to five each) at user-selectable angles.
 Because of its flexibility and low background noise, the MarLux is well suited to investigating particles whose
 properties fall in the Mie scatter domain.
-
-{{ floating_image(
-path="images/angular_experiments.png",
-side="right",
-title="Examples of Angular Experiments"
-) }}
 
 ## Controlled Environment Sorting
 
