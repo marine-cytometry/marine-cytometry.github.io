@@ -66,6 +66,13 @@ title="Side Scatter"
 
 Dark Field illumination allows the noise-free detection of particles as small as 1/2 the illumination wavelength.
 
+{{ floating_image(
+path="images/pinhole_no_bar.png",
+side="center",
+caption="Raw images without scatter bar or chromatic filters at &lambda; = 450nm",
+title="Raw Images"
+) }}
+
 ## Full Spectrum Omni-Directional Flow Cytometry&trade;
 
 {{ floating_image(
@@ -119,6 +126,13 @@ title="Pigment Chain Analysis"
 Particle sorting based on anisotropic fluorescence signatures may require a combination of multiple angular signals.
 The MarCy data bus executes high-speed custom algorithms in real-time.
 
+{{ floating_image(
+path="images/marcy_bus.png",
+side="right",
+caption="MarCy bus with user extensions",
+title="MarCy Bus"
+) }}
+
 Sorting on calculated properties requires consistent real-time signal processing.
 The MarCy bus accepts __user programmable FPGAs__ that perform data calculations for event classification on multiple
 event parameters.
@@ -160,7 +174,7 @@ console.log("resize");
 }
 
 function positionImages(images) {
-    let maxBottom = 0;
+    let maxBottom = Number.NEGATIVE_INFINITY;
 
     images.forEach(image => {
         if (window.innerWidth < 1500) {
