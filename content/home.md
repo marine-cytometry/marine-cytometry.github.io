@@ -28,16 +28,17 @@ scale=0.75
 ) }}
 
 Marine Cytometry Inc. builds analytical flow cytometers for the study of phytoplankton communities.
-The small organisms that fuel the aquatic food chain are in the size-range of the wavelength of light (Mie theory).
-The scatter and polarization of signals from such small particles vary with the direction of observation.
-Furthermore, the light-harvesting pigment complexes make use of efficient, non-linear, energy transfer mechanisms.
-Documentation of anisotropic optical phenomena requires instruments capable of measuring the wavelength-dependent,
-angular distribution of very dim signals.
+The organisms at the base of the aquatic food chain are very small: about the size of the wavelength of light.
+Mie theory predicts that their scatter and polarization vary with the direction of observation and consequently cannot
+be expressed in a single value.
+The energy harvesting the pigment complexes make use of non-linear energy transfer mechanisms.
+Documentation of anisotropic optical phenomena requires flow instruments that measure spectral and polarization signals
+at adjustable angles.
 
-Correlation of plankton identification and activity requires combining optical measurements with single-cell
+Correlating plankton identity with biological activity requires combining optical measurements with single-cell
 manipulation and DNA analysis.
-The sorting equipment needs to be flexible, precise, and robust so that experiments can withstand the rough conditions
-of work at sea.
+The sorting equipment needs to be flexible, accurate, robust, and PCR-clean, so that experiments can withstand the
+rough conditions of work at sea.
 
 # The MarLux&trade; Cell Sorter
 
@@ -52,7 +53,7 @@ caption="A two-tier organization allows placement of illumination and detection 
 title="Symmetrical Signal Detection"
 ) }}
 
-The MarLux&trade;, uses a unique off-axis illumination geometry that presents particle scatter against a dark
+MarCy's cytometers utilize a unique off-axis illumination geometry that presents particle scatter against a dark
 background.
 Laser reflections that bounce inside the jet and optical elements are directed away from the detector field[^1].
 
@@ -63,8 +64,7 @@ caption="The MarLux detect 0.2 &micro;m particles 2-3 decades above background."
 title="Side Scatter"
 ) }}
 
-Dark Field illumination allows the detection of particles as small as 1/2 the illumination wavelength
-well above background noise.
+Dark Field illumination allows the noise-free detection of particles as small as 1/2 the illumination wavelength.
 
 ## Full Spectrum Omni-Directional Flow Cytometry&trade;
 
@@ -75,10 +75,10 @@ caption="Fluorescence spectrum of Pseudo-nitzschia multiseries.",
 title="Pseudo-nitzschia Multiseries"
 ) }}
 
-Since the illumination and registration optics are not in the same plane, they can be oriented at any angle[^1].
-To detect color changes associated with energy transfer, the angular distribution of the polarization state
+Since the illumination and registration optics are in different planes, they can be oriented at any angle[^1].
+In order to detect color-changes associated with energy transfer, the angular distribution of the polarization state
 can be determined.
-The instrument can also be equipped for full spectral analysis.
+The instrument can also be equipped for full spectrum analysis.
 
 {{ floating_image(
 path="images/angular_experiments.png",
@@ -86,15 +86,15 @@ side="left",
 title="Examples of Angular Experiments"
 ) }}
 
-The MarLux™ cell sorter incorporates Dark Field illumination in a circular layout.
-This geometry allows multiple excitation and emission channels (up to five each) at user-selectable angles.
-Because of its flexibility and low background noise, the MarLux is well suited to investigating particles whose
-properties fall in the Mie scatter domain.
+The MarLux&trade; cell sorter incorporates Dark Field illumination in a circular layout.
+This geometry allows multiple excitation and emission channels (up to 5 each) at user-selectable angles.
+Because of its flexibility and low background noise, the MarLux is well suited to investigate particles whose properties
+fall in the Mie scatter domain.
 
 ## Controlled Environment Sorting
 
-Many marine organisms are adapted to an oxygen-free environment.
-The MarLux&trade; allows live sorting in a controlled atmosphere.
+Many marine organisms are adapted to a low oxygen environment.
+MarCy's instruments allow live sorting in a controlled atmosphere.
 
 ## Real-Time Multi-Parameter Classification
 
@@ -104,8 +104,8 @@ side="right",
 title="Prochlorococcus & Synechococcus Vs Depth"
 ) }}
 
-The MarLux™ Open Bus Protocol combines particle properties with environmental conditions.
-Ambient light controls photo-pigment expression.
+The MarLux&trade; Open Bus Protocol combines particle properties with environmental conditions.
+Photo-pigment expression is controlled by ambient light.
 The local temperature and salinity of seawater hold information about sea currents and upwelling.
 
 {{ floating_image(
@@ -117,7 +117,7 @@ title="Pigment Chain Analysis"
 ) }}
 
 Particle sorting based on anisotropic fluorescence signatures may require a combination of multiple angular signals.
-The MarCy data bus executes high-speed custom algorithms for sort classification.
+The MarCy data bus executes high-speed custom algorithms in real-time.
 
 Sorting on calculated properties requires consistent real-time signal processing.
 The MarCy bus accepts __user programmable FPGAs__ that perform data calculations for event classification on multiple
@@ -125,10 +125,10 @@ event parameters.
 
 ---
 
-MarCy's novel flow technology offers advantages beyond marine biology.
-The company actively explores novel applications with leading scientists.
-MarCy scientists have participated in field trials off the west coast of South America, over the Atacama trench,
-in the Arctic and in time series near Hawaii and Bermuda.
+MarCy's novel flow technology offers advantages in small particle analysis beyond marine biology. 
+The company actively explores novel applications with leading scientists. 
+MarCy scientists have participated in field trials off the west coast of South America, over the Atacama trench, in the
+Arctic and in time series near Hawaii and Bermuda.
 
 {{ gallery(images=[
 "/images/sea/sea_0.jpg",
@@ -141,8 +141,8 @@ in the Arctic and in time series near Hawaii and Bermuda.
 "/images/sea/sea_7.png"
 ]) }}
 
-[Contact us](@/contact.md) if you have a small-particle application that might benefit from the
-MarLux&trade; __Omni-Directional&trade; Flow Cytometer__ approach.
+[Contact us](@/contact.md) if you have a small-particle application that might benefit from the MarLux™ Omni-Directional™ Flow 
+cytometry technology.
 
 [^1]: US Patent PCT/US2019/040942
 
