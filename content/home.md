@@ -109,7 +109,7 @@ MarCy's instruments allow live sorting in a controlled atmosphere.
 path="images/depth.png",
 side="right",
 title="Prochlorococcus & Synechococcus Vs Depth"
-) }}
+) }} 
 
 The MarLux&trade; Open Bus Protocol combines particle properties with environmental conditions.
 Photo-pigment expression is controlled by ambient light.
