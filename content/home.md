@@ -156,7 +156,7 @@ Arctic and in time series near Hawaii and Bermuda.
 ]) }}
 
 Contact us at [info@marinecytometry.org](mailto:info@marinecytometry.org) for pricing or quote requests if you have a small-particle application
-that might benefit from the MarLux™ Omnidirectional Flow™ cytometry technology.
+that might benefit from the MarLux™ or Omnidirectional Flow™ cytometry technology.
 
 [^1]: US Patent PCT/US2019/040942
 
