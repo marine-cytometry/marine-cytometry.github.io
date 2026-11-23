@@ -73,7 +73,7 @@ caption="Raw images without scatter bar or chromatic filters at &lambda; = 450nm
 title="Raw Images"
 ) }}
 
-## Full Spectrum Omnidirectional Flow™ Cytometry&trade;
+## Full Spectrum Omnidirectional Flow™ Cytometry;
 
 {{ floating_image(
 path="images/pseudo-spectrum.png",
