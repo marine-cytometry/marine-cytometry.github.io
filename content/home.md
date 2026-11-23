@@ -60,7 +60,7 @@ Laser reflections that bounce inside the jet and optical elements are directed a
 {{ floating_image(
 path="images/side_scatter_log.png",
 side="left",
-caption="The MarLux detect 0.2 &micro;m particles 2-3 decades above background.",
+caption="The MarLux&trade; detect 0.2 &micro;m particles 2-3 decades above background.",
 title="Side Scatter"
 ) }}
 
@@ -73,7 +73,7 @@ caption="Raw images without scatter bar or chromatic filters at &lambda; = 450nm
 title="Raw Images"
 ) }}
 
-## Full Spectrum Omni-Directional Flow Cytometry&trade;
+## Full Spectrum Omnidirectional Flow™ Cytometry&trade;
 
 {{ floating_image(
 path="images/pseudo-spectrum.png",
@@ -95,7 +95,7 @@ title="Examples of Angular Experiments"
 
 The MarLux&trade; cell sorter incorporates Dark Field illumination in a circular layout.
 This geometry allows multiple excitation and emission channels (up to 5 each) at user-selectable angles.
-Because of its flexibility and low background noise, the MarLux is well suited to investigate particles whose properties
+Because of its flexibility and low background noise, the MarLux&trade; is well suited to investigate particles whose properties
 fall in the Mie scatter domain.
 
 ## Controlled Environment Sorting
@@ -155,8 +155,8 @@ Arctic and in time series near Hawaii and Bermuda.
 "/images/sea/sea_7.png"
 ]) }}
 
-[Contact us](@/contact.md) if you have a small-particle application that might benefit from the MarLux™ Omni-Directional™ Flow 
-cytometry technology.
+Contact us at [info@marinecytometry.org](mailto:info@marinecytometry.org) for pricing or quote requests if you have a small-particle application
+that might benefit from the MarLux™ Omnidirectional Flow™ cytometry technology.
 
 [^1]: US Patent PCT/US2019/040942
 

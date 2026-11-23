@@ -4,8 +4,8 @@ title = "Contact Us"
 show_toc = false
 +++
 
-Contact us at [info@marinecytometry.org](mailto:info@marinecytometry.org) if you have a small-particle application
-that might benefit from the MarLux™ Omni-Directional™ Flow cytometry technology.
+Contact us at [info@marinecytometry.org](mailto:info@marinecytometry.org) for pricing or quote requests if you have a small-particle application
+that might benefit from the MarLux™ Omnidirectional Flow™ cytometry technology.
 
 # Research and Development
 Ger van den Engh\
